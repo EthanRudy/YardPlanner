@@ -1,0 +1,114 @@
+# PROPERTY EDGE(S)
+#
+# START_X, START_Y, END_X, END_Y
+# Back Wall
+0,	0,	50,	0,	WA
+# Right Wall (1)
+50,	0,	50,	25,	WA
+# Right Wall (2)
+50, 25, 50, 64.416,	WA
+# Right Wall (3)
+50,	64.416,	50,	77.016,	WA
+# Right Property Line
+50, 77.016,	50,	118,	PL
+# Left Wall (1)
+0,	0,	0,	26,	WA
+# Left Wall (2)
+0,	26,	0,	45,	WA
+# Left Property Line
+0, 45, 0,	114.5,	PL
+# Bottom Left
+0,	114.5,	7.5,	114.5,	PL
+# Bottom Right
+23.5,	118,	50,	118,	PL
+#
+# HOUSE EDGES
+#
+# Back Left
+5,	30,	18,	30,	WA
+# Back Middle
+18,	30,	18,	35,	WA
+# Back Right
+18,	35,	45,	35, WA
+# Right Wall (1)
+45,	35,	45,	69.016, WA
+# Front Door
+40,	69.016,	45,	69.016, WA
+# Right Wall (2)
+40,	69.016,	40,	77.016, WA
+# Right Wall (3)
+40,	77.016,	40,	94,	WA
+# Front Wall (1)
+25.6,	94,	40,	94,	WA
+# Front Wall (2)
+25.6,	93,	25.6,	94,	WA
+# Front Wall (3)
+23.6,	93,	25.6,	93, WA
+# Garage Door
+7.5,	93,	23.6,	93, RE
+# Front Wall (4)
+5,	93,	7.5,	93,	WA
+# Left Wall (1)
+5,	30,	5,	45,	WA
+# Left Wall (2)
+5,	45,	5,	93,	WA
+#
+#
+# PATHS, PATIOS, PORCHES, & DRIVEWAY
+# FRONT PORCH
+# Front Porch (right)
+45,	69.016,	45,	77.017, RE
+# Front Porch (front)
+45, 77.016, 40,	77.016,	RE
+#
+# BACK PATIO
+# Back Patio (left)
+18, 30, 18, 25, RE
+# Back Patio (back)
+18,	25,	45,	25, RE
+# Back Patio (right)
+45,	25,	45,	35, RE
+#
+# FRONT PATH
+# Vert Left
+41,	77.016,	41,	98.016,	RE
+# Vert Right
+44, 77.016,	44,	102.016,	RE
+# Horiz Top
+23.5,	98.016,	41,	98.016,	RE
+# Horiz Bottom
+23.5,	102.016,	44,	102.016,	RE
+#
+# RIGHT PATH
+# Top Top Horiz
+45, 27,	49,	27, RE
+# Top Horiz
+45,	33,	46,	33,	RE
+# Vert Left (1)
+46,	33,	46,	64.416,	RE
+# Vert Right (1)
+49,	27,	49,	64.416,	RE
+# Vert Left (2)
+46,	64.416,	46,	70.016, RE
+# Vert Right (2)
+49,	64.416,	49,	75.016,	RE
+# Bottom Horiz
+45,	70.016,	46,	70.016,	RE
+# Bottom Bottom Horiz
+45,	75.016,	49,	75.016, RE
+# DRIVEWAY
+# Left
+7.5,	93,	7.5,	114.5,	RE
+# Right
+23.5,	93,	23.5,	118,	RE
+# Bottom
+7.5,	114.5,	23.5,	118,	RE
+#
+#
+# DECORATIVE WALLS
+# Left
+0,	26,	5,	26, WA
+# Right
+45,	25,	50,	25,	WA
+# Right Fence
+45,	64.416,	50,	64.416,	FE
